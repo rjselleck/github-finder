@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 //put props in ({}) instead of (props) = destructuring
 const Navbar = ({ icon, title }) => {
-
   return (
     <nav className='navbar bg-primary'>
       <h1>
@@ -11,7 +10,7 @@ const Navbar = ({ icon, title }) => {
       </h1>
     </nav>
   );
-}
+};
 
 Navbar.defaultProps = {
   title: 'GitHub Finder',
