@@ -10,6 +10,11 @@ import {
   GET_REPOS
 } from '../types';
 
+// let githubClientID;
+// let githubClientSecret;
+
+
+
 const GithubState = props => {
   const initialState = {
     users: [],
